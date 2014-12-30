@@ -19,6 +19,14 @@ module.exports = function (grunt) {
         pushTo: 'origin',
         gitDescribeOptions: '--tags --always --abbrev=1 --dirty=-d'
       }
+    },
+    umd: {
+      default: {
+        options: {
+          src: 'lib/flight-with-child-components.js',
+          dest: 'build/flight-with-child-components.js'
+        }
+      }
     }
   });
 };

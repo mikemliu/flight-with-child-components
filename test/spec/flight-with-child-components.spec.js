@@ -2,9 +2,9 @@ define(function (require) {
     'use strict';
 
     var defineComponent = require('flight/lib/component');
-    var withChildComponents = require('lib/flight-with-child-components');
+    var withChildComponents = require('build/flight-with-child-components');
 
-    describeMixin('lib/flight-with-child-components', function () {
+    describeMixin('build/flight-with-child-components', function () {
 
         var Component;
         var ChildComponent;

@@ -5,6 +5,7 @@
     "bower": "^1.3.3",
     "grunt": "~0.4.1",
     "grunt-bump": "latest",
+    "grunt-umd": "^2.2.1",
     "karma": "~0.12.19",
     "karma-cli": "0.0.4",
     "karma-jasmine": "~0.2.0",
@@ -15,6 +16,7 @@
   },
   "scripts": {
     "install": "bower install",
+    "build": "grunt umd",
     "test": "karma start --single-run",
     "watch-test": "karma start"
   }
